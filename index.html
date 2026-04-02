@@ -3,47 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Electrónicos Cundinamarca</title>
+    <title>GeoRetail Cundinamarca</title>
+
     <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">TechBlog.CO</div>
+            <div class="logo">GeoRetail Cundinamarca</div>
             <div class="nav-links">
-                <a href="#contexto">Contexto</a>
-                <a href="#proceso">Proceso</a>
+                <a href="#contexto">Inicio</a>
+                <a href="#categorias">Categorías</a>
+                <a href="#proceso">Enfoque</a>
                 <a href="#estado">Estado actual</a>
-                <a href="#kpis">KPIs</a>
-                <a href="#diagnostico">Diagnóstico</a>
+                <a href="#kpis">Indicadores</a>
+                <a href="#diagnostico">Hallazgos</a>
             </div>
         </div>
     </nav>
 
-    <header class="hero" style="background-image: linear-gradient(rgba(8,17,32,0.75), rgba(8,17,32,0.85)), url('assets/banner-cundinamarca.jpg');">
+    <header class="hero" style="background-image: linear-gradient(rgba(8,17,32,0.55), rgba(8,17,32,0.78)), url('assets/banner-cundinamarca.jpg');">
         <div class="hero-grid">
             <div class="hero-text">
+                <div class="tag-list">
+                    <span class="tag">#BusinessAnalytics</span>
+                    <span class="tag">#Cundinamarca</span>
+                    <span class="tag">#Retail</span>
+                    <span class="tag">#ExpansiónComercial</span>
+                </div>
+
                 <span class="badge">Proyecto de Business Analytics</span>
-                <h1>Electrónicos Cundinamarca</h1>
+
+                <h1>GeoRetail Cundinamarca</h1>
+
                 <p class="hero-subtext">
-                    Análisis descriptivo para la localización óptima de tiendas electrónicas en 2026
+                    Dónde vale la pena abrir una tienda en Cundinamarca y dónde quizá no tanto
                 </p>
+
                 <p class="hero-description">
-                    Este blog presenta el análisis descriptivo del modelo de negocio, el proceso foco
-                    de estudio, el estado actual del sistema, los indicadores clave y los principales
-                    hallazgos para mejorar la toma de decisiones sobre expansión comercial.
+                    Este blog explora cómo los datos pueden ayudar a entender el mercado, la competencia
+                    y la viabilidad comercial de distintos municipios para apoyar decisiones de expansión
+                    de tiendas en el departamento.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="#kpis" class="btn btn-primary">Ver indicadores</a>
-                    <a href="#diagnostico" class="btn btn-secondary">Ver hallazgos</a>
+                    <a href="#kpis" class="btn btn-blog">Explorar indicadores</a>
+                    <a href="#diagnostico" class="btn btn-blog btn-blog-secondary">Ir a hallazgos</a>
                 </div>
             </div>
 
             <div class="hero-panel">
                 <div class="panel-card">
-                    <h3>Resumen del proyecto</h3>
+                    <h3>Resumen rápido</h3>
                     <div class="stats-grid">
                         <div class="stat-card">
                             <h4>21+</h4>
@@ -67,128 +83,131 @@
         </div>
     </header>
 
+
     <main class="main-container">
 
-    <div className="flex flex-wrap items-center gap-4 border-b pb-6 font-body text-sm text-muted-foreground">
-        <span>Marzo 2026</span>
-        <span className="hidden sm:inline">•</span>
-        <span> Cundinamarca, Colombia</span>
-        <span className="hidden sm:inline">•</span>
-        <span> 12 min de lectura</span>
-    </div>
+        <div class="meta-bar">
+            <span>Abril 08, 2026</span>
+            <span class="meta-dot">•</span>
+            <span>Cundinamarca, Colombia</span>
+            <span class="meta-dot">•</span>
+            <span>12 min de lectura</span>
+        </div>
 
         <section class="section" id="contexto">
             <div class="section-header">
                 <span class="section-tag">01</span>
-                <h2>Contextualización del Modelo de Negocio</h2>
+                <h2>El mercado minorista en Cundinamarca: más complejo de lo que parece</h2>
             </div>
 
             <div class="content-card">
                 <p>
-                    El proyecto se centra en el sector de comercialización de equipos electrónicos en
-                    el departamento de Cundinamarca, un mercado que ha crecido de manera sostenida
-                    debido al aumento de la demanda tecnológica y la transformación digital en Colombia.
+                    El proyecto se enfoca en el análisis de localización estratégica para distintos tipos
+                    de tiendas en el departamento de Cundinamarca. La idea es convertir datos geográficos,
+                    comerciales y territoriales en una lectura más clara del mercado, para entender
+                    <mark>dónde puede existir una oportunidad real de expansión</mark>.
                 </p>
                 <p>
-                    El modelo de negocio analizado corresponde a empresas que venden productos
-                    electrónicos como computadores, accesorios y dispositivos tecnológicos, operando
-                    en diferentes municipios del departamento.
+                    A diferencia de un enfoque cerrado sobre una sola categoría, esta propuesta amplía la mirada
+                    hacia diferentes formatos de comercio minorista como tecnología, moda, droguerías,
+                    ferreterías, supermercados y papelerías. Eso la vuelve más útil, más flexible y también
+                    más parecida a una herramienta que sí podría usarse fuera del aula.
                 </p>
                 <p>
-                    A nivel general, el proceso involucra varios componentes clave. Por un lado,
-                    existe un componente geográfico que organiza la información por departamentos y
-                    municipios, lo que permite analizar la distribución territorial del mercado.
-                    También se incluye un componente empresarial donde se registran las empresas,
-                    sus actividades económicas y su ubicación.
+                    En el fondo, el análisis busca responder una pregunta bastante práctica:
+                    <mark>qué tan conveniente es abrir una tienda en determinado municipio</mark>,
+                    teniendo en cuenta el contexto económico, el nivel de competencia y el potencial del mercado.
                 </p>
-                <p>
-                    Adicionalmente, el sistema contempla un componente comercial que integra productos,
-                    clientes y ventas, permitiendo analizar el comportamiento del mercado, los ingresos
-                    y la demanda. Finalmente, se incorpora un componente prescriptivo que busca generar
-                    recomendaciones sobre dónde ubicar nuevas tiendas, basándose en variables como
-                    competencia, población y actividad económica.
-                </p>
-                <p>
-                    En conjunto, este modelo permite entender no solo cómo funciona el negocio
-                    actualmente, sino también cómo optimizar decisiones estratégicas de expansión.
-                </p>
+
+            </div>
+        </section>
+
+        <section class="section" id="categorias">
+            <div class="section-header">
+                <span class="section-tag">02</span>
+                <h2>Tiendas que entran en el radar</h2>
+            </div>
+
+            <div class="store-grid">
+                <div class="store-card">Tecnología</div>
+                <div class="store-card">Moda</div>
+                <div class="store-card">Droguería</div>
+                <div class="store-card">Supermercado</div>
+                <div class="store-card">Ferretería</div>
+                <div class="store-card">Papelería</div>
             </div>
         </section>
 
         <section class="section" id="proceso">
             <div class="section-header">
-                <span class="section-tag">02</span>
-                <h2>Identificación del Proceso Foco de Estudio</h2>
+                <span class="section-tag">03</span>
+                <h2>La gran pregunta: ¿dónde sí abrir una tienda?</h2>
             </div>
 
             <div class="content-card">
                 <p>
-                    El proceso seleccionado para el análisis es la <strong>localización de nuevas tiendas
-                    electrónicas en Cundinamarca</strong>.
+                    El proceso foco de estudio es la selección de ubicaciones estratégicas para nuevas tiendas
+                    en Cundinamarca. El objetivo no es solo encontrar municipios “importantes”, sino detectar
+                    cuáles ofrecen una mejor combinación entre mercado, competencia y viabilidad.
                 </p>
                 <p>
-                    Este proceso tiene como objetivo principal identificar los municipios con mayor
-                    potencial comercial para la apertura de nuevas tiendas, buscando maximizar la
-                    rentabilidad y minimizar la competencia.
+                    Cuando este proceso se hace bien, permite reducir la incertidumbre al momento de expandirse,
+                    optimizar recursos y evitar decisiones basadas únicamente en intuición. En otras palabras,
+                    ayuda a tomar decisiones más informadas sobre dónde abrir y dónde quizá conviene esperar.
                 </p>
                 <p>
-                    Cuando este proceso funciona correctamente, permite tomar decisiones basadas en datos
-                    y no únicamente en intuición, logrando una mejor distribución del mercado y
-                    aprovechando zonas con alta demanda insatisfecha.
-                </p>
-                <p>
-                    La elección de este proceso se justifica porque actualmente muchas decisiones de
-                    ubicación se realizan de manera empírica. Esto genera problemas como la concentración
-                    excesiva de tiendas en ciertos municipios, el desaprovechamiento de zonas con alto
-                    potencial y la posibilidad de realizar inversiones poco rentables.
-                </p>
-                <p>
-                    Además, este proceso impacta directamente en los ingresos, los costos operativos y la
-                    competitividad de las empresas, por lo que se convierte en un eje estratégico del negocio.
+                    Se eligió este proceso porque la ubicación sigue siendo uno de los factores más sensibles
+                    para el rendimiento de una tienda. Una mala elección puede traducirse en baja demanda,
+                    sobreoferta local o rentabilidad insuficiente, mientras que una buena ubicación puede
+                    convertirse en una ventaja competitiva desde el inicio.
                 </p>
             </div>
         </section>
 
         <section class="section section-soft" id="estado">
             <div class="section-header">
-                <span class="section-tag">03</span>
-                <h2>Mapeo del Estado Actual (As-Is)</h2>
+                <span class="section-tag">04</span>
+                <h2>Así funciona hoy el análisis por dentro</h2>
             </div>
 
             <div class="grid-two">
                 <div class="content-card">
                     <h3>Funcionamiento actual</h3>
                     <p>
-                        Actualmente, el sistema funciona a través de una base de datos relacional que integra
-                        información geográfica, empresarial, comercial y analítica.
+                        Actualmente, el sistema se apoya en una base de datos relacional que integra variables
+                        geográficas, empresariales, comerciales y analíticas. Esto permite conectar municipios,
+                        actividades económicas, empresas, ventas, productos y clientes dentro de una misma lógica
+                        de análisis.
                     </p>
                     <p>
-                        El flujo general inicia con el registro de los municipios y departamentos, seguido del
-                        registro de empresas y su relación con actividades económicas y ubicaciones.
-                        Posteriormente, se gestionan los productos, clientes y ventas, lo que permite generar
-                        información histórica del comportamiento del mercado.
+                        El flujo parte del registro de territorios y empresas, luego incorpora relaciones con
+                        actividades económicas y termina enlazando información comercial que ayuda a describir
+                        cómo se comporta el mercado en cada zona.
                     </p>
                     <p>
-                        Aunque existe información suficiente para el análisis, la toma de decisiones todavía
-                        depende en parte de criterios subjetivos, lo que limita el uso total del potencial analítico.
+                        Aunque existe suficiente información para hacer lecturas interesantes, todavía hay una
+                        dependencia parcial de criterios subjetivos. Ese es justamente uno de los puntos más
+                        importantes del proyecto: convertir datos dispersos en una herramienta de decisión
+                        más clara y útil.
                     </p>
                 </div>
 
                 <div class="content-card">
-                    <h3>Entidades principales</h3>
+                    <h3>Qué piezas componen el análisis</h3>
                     <ul class="feature-list">
-                        <li><strong>Municipio y Departamento:</strong> definen la ubicación geográfica.</li>
-                        <li><strong>Empresa:</strong> representa las tiendas electrónicas.</li>
-                        <li><strong>Producto, Cliente y Venta:</strong> permiten analizar el comportamiento comercial.</li>
-                        <li><strong>Recomendación_Localización:</strong> almacena los resultados analíticos.</li>
+                        <li><strong>Municipio y Departamento:</strong> organizan la base territorial del estudio.</li>
+                        <li><strong>Empresa:</strong> representa los negocios presentes en cada zona.</li>
+                        <li><strong>Actividad económica:</strong> ayuda a clasificar el tipo de comercio registrado.</li>
+                        <li><strong>Producto, Cliente y Venta:</strong> describen el comportamiento comercial.</li>
+                        <li><strong>Recomendación de localización:</strong> resume la salida analítica por municipio.</li>
                     </ul>
 
                     <h3>Relaciones clave</h3>
                     <ul class="feature-list">
-                        <li>Una empresa puede estar en varios municipios.</li>
-                        <li>Una empresa puede tener múltiples actividades económicas.</li>
-                        <li>Una venta relaciona empresa, cliente y productos.</li>
-                        <li>Cada municipio puede tener múltiples empresas.</li>
+                        <li>Una empresa puede operar en varios municipios.</li>
+                        <li>Una empresa puede estar asociada a múltiples actividades económicas.</li>
+                        <li>Las ventas conectan empresas, clientes y productos.</li>
+                        <li>Cada municipio puede analizarse en términos de competencia, saturación y oportunidad.</li>
                     </ul>
                 </div>
             </div>
@@ -196,51 +215,55 @@
 
         <section class="section" id="kpis">
             <div class="section-header">
-                <span class="section-tag">04</span>
-                <h2>Análisis de Indicadores (KPIs)</h2>
+                <span class="section-tag">05</span>
+                <h2>Los indicadores que realmente cuentan la historia</h2>
             </div>
 
             <div class="kpi-grid">
-                <div class="kpi-card">
-                    <h3>Concentración de empresas</h3>
+                <div class="kpi-card kpi-yellow">
+                    <h3>Concentración comercial</h3>
                     <p>
-                        Permite identificar qué municipios están saturados y cuáles presentan oportunidades
-                        de crecimiento.
+                        Sirve para ver qué municipios ya están bastante cargados de oferta y cuáles todavía
+                        tienen espacio para crecer sin tanta saturación.
                     </p>
                 </div>
 
-                <div class="kpi-card">
-                    <h3>Ingresos totales por empresa</h3>
+                <div class="kpi-card kpi-green">
+                    <h3>Nivel de competencia</h3>
                     <p>
-                        Mide el desempeño económico con base en la suma de ventas registradas.
+                        Ayuda a entender dónde abrir implicaría entrar a un entorno muy disputado y dónde podría
+                        existir un margen más cómodo para posicionarse.
                     </p>
                 </div>
 
-                <div class="kpi-card">
-                    <h3>Ticket promedio</h3>
+                <div class="kpi-card kpi-pink">
+                    <h3>Potencial de mercado</h3>
                     <p>
-                        Indica el valor promedio de cada transacción y ayuda a entender el comportamiento de compra.
+                        Resume qué tan atractivo puede ser un municipio cuando se combinan actividad económica,
+                        dinámica comercial y oportunidad de crecimiento.
                     </p>
                 </div>
 
-                <div class="kpi-card">
-                    <h3>Productos más vendidos</h3>
+                <div class="kpi-card kpi-blue">
+                    <h3>Ticket promedio estimado</h3>
                     <p>
-                        Muestra cuáles artículos generan mayor demanda e ingresos dentro del negocio.
+                        Permite imaginar el comportamiento esperado de compra y el valor promedio que podría
+                        mover una operación comercial en una zona determinada.
                     </p>
                 </div>
 
-                <div class="kpi-card">
-                    <h3>Viabilidad por municipio</h3>
+                <div class="kpi-card kpi-yellow">
+                    <h3>Viabilidad de apertura</h3>
                     <p>
-                        Evalúa qué tan conveniente resulta abrir una nueva tienda en cada municipio.
+                        Es el indicador síntesis: junta varias señales del mercado para decir si abrir una tienda
+                        en un municipio parece una buena apuesta o una jugada riesgosa.
                     </p>
                 </div>
             </div>
 
             <div class="charts-grid">
                 <div class="chart-card">
-                    <h3>Empresas por municipio</h3>
+                    <h3>Concentración comercial por municipio</h3>
                     <canvas id="chartEmpresas"></canvas>
                 </div>
 
@@ -252,8 +275,8 @@
 
             <div class="content-card table-card">
                 <div class="table-header">
-                    <h3>Tabla de KPIs</h3>
-                    <p>Resumen comparativo de algunos municipios analizados</p>
+                    <h3>Tabla de indicadores</h3>
+                    <p>Una mirada rápida a algunos municipios analizados</p>
                 </div>
 
                 <div class="table-wrapper">
@@ -261,33 +284,33 @@
                         <thead>
                             <tr>
                                 <th>Municipio</th>
-                                <th>Empresas</th>
-                                <th>Ventas Totales</th>
-                                <th>Ticket Promedio</th>
+                                <th>Concentración comercial</th>
+                                <th>Competencia</th>
+                                <th>Potencial de mercado</th>
                                 <th>Viabilidad</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Soacha</td>
-                                <td>25</td>
-                                <td>Alto</td>
-                                <td>Medio</td>
-                                <td>92.5</td>
+                                <td>Alta</td>
+                                <td>Alta</td>
+                                <td>Muy alto</td>
+                                <td>91.2</td>
                             </tr>
                             <tr>
                                 <td>Chía</td>
-                                <td>15</td>
-                                <td>Medio</td>
+                                <td>Media</td>
+                                <td>Media</td>
                                 <td>Alto</td>
-                                <td>85.3</td>
+                                <td>86.4</td>
                             </tr>
                             <tr>
                                 <td>Zipaquirá</td>
-                                <td>10</td>
-                                <td>Medio</td>
-                                <td>Medio</td>
-                                <td>78.2</td>
+                                <td>Media</td>
+                                <td>Baja</td>
+                                <td>Alto</td>
+                                <td>80.7</td>
                             </tr>
                         </tbody>
                     </table>
@@ -297,56 +320,97 @@
 
         <section class="section" id="diagnostico">
             <div class="section-header">
-                <span class="section-tag">05</span>
-                <h2>Diagnóstico de Fallos y Oportunidades de Mejora</h2>
+                <span class="section-tag">06</span>
+                <h2>Lo que los datos dejan ver a simple vista</h2>
             </div>
 
             <div class="diagnostic-grid">
                 <div class="diagnostic-card">
-                    <h3>Alta concentración de competencia</h3>
+                    <h3>Alta concentración en ciertos municipios</h3>
                     <p>
-                        Algunos municipios presentan una alta densidad de empresas, lo que puede reducir
-                        la rentabilidad y aumentar la presión competitiva.
+                        Algunos municipios ya muestran una densidad comercial importante, lo que incrementa
+                        la presión competitiva y puede reducir la rentabilidad esperada de nuevas aperturas.
                     </p>
                 </div>
 
                 <div class="diagnostic-card">
-                    <h3>Mercados potenciales subutilizados</h3>
+                    <h3>Oportunidades desaprovechadas</h3>
                     <p>
-                        Existen municipios sin presencia significativa de tiendas, lo que representa
-                        oportunidades no aprovechadas.
+                        También aparecen zonas con menor saturación comercial que podrían representar
+                        oportunidades interesantes para crecer con menos competencia directa.
                     </p>
                 </div>
 
                 <div class="diagnostic-card">
                     <h3>Decisiones basadas en intuición</h3>
                     <p>
-                        La ubicación de nuevas tiendas no siempre se apoya en modelos analíticos,
-                        lo que incrementa el riesgo de inversión.
+                        En muchos escenarios, la expansión de negocios todavía se define con criterios empíricos.
+                        El proyecto propone una forma más estructurada de mirar el territorio.
                     </p>
                 </div>
 
                 <div class="diagnostic-card">
-                    <h3>Baja integración estratégica</h3>
+                    <h3>Baja integración analítica</h3>
                     <p>
-                        Los datos comerciales disponibles todavía no se aprovechan al máximo para orientar
-                        decisiones de expansión.
+                        Existe información valiosa, pero no siempre se traduce en prioridades territoriales claras.
+                        Ahí es donde el análisis gana sentido práctico.
                     </p>
                 </div>
             </div>
 
-            <div class="content-card conclusion-card">
+            <div class="content-card">
                 <h3>Conclusión</h3>
                 <p>
-                    En general, el proyecto presenta una estructura de datos sólida y con amplio potencial
-                    analítico. No obstante, el principal reto está en transformar esa información en
-                    decisiones estratégicas realmente accionables.
+                    En general, el proyecto evidencia una estructura de datos sólida y adaptable a distintos tipos
+                    de comercio minorista, lo que permite analizar el comportamiento del mercado desde una perspectiva
+                    territorial y estratégica. Su principal valor radica en la capacidad de integrar variables como
+                    concentración comercial, competencia, actividad económica y demanda potencial, transformándolas
+                    en criterios útiles para la toma de decisiones sobre apertura de nuevos puntos de venta.
                 </p>
                 <p>
-                    El uso de analítica prescriptiva permite pasar de decisiones empíricas a decisiones
-                    basadas en evidencia, mejorando la selección de ubicaciones y fortaleciendo la
-                    competitividad del negocio en Cundinamarca.
+                    A partir del análisis, se observa que el mercado en Cundinamarca presenta dinámicas heterogéneas:
+                    existen municipios con alta concentración comercial donde la competencia puede reducir la
+                    rentabilidad, pero también zonas con menor saturación que representan oportunidades claras
+                    de expansión. En este sentido, la <mark>viabilidad de una nueva tienda no depende únicamente del
+                    tamaño del mercado</mark>, sino del equilibrio entre demanda potencial y presión competitiva.
                 </p>
+                <p>
+                    Al ampliar el enfoque hacia múltiples categorías de negocio, la propuesta se vuelve más flexible,
+                    intuitiva y cercana a una herramienta real de análisis de expansión. Esto no solo incrementa su
+                    valor académico, sino que también la posiciona como una base útil para soluciones aplicadas en
+                    localización comercial, planificación de crecimiento y evaluación territorial.
+                </p>
+                <p>
+                    En definitiva, el proyecto demuestra que el uso adecuado de datos puede reducir la incertidumbre
+                    en decisiones de inversión, facilitando una selección de ubicaciones más informada, rentable y
+                    alineada con las condiciones reales del mercado.
+                </p>
+            </div>
+        </section>
+
+        <section class="section comments-section">
+            <div class="section-header">
+                <span class="section-tag">07</span>
+                <h2>Comentarios</h2>
+            </div>
+
+            <div class="comments-box">
+                <div class="comment">
+                    <p class="comment-author">Laura G.</p>
+                    <p>
+                        Me gustó que el análisis no se quedara solo en tecnología. Así se entiende mucho mejor
+                        como herramienta de expansión comercial.
+                    </p>
+                </div>
+
+                <div class="comment">
+                    <p class="comment-author">Andrés M.</p>
+                    <p>
+                        Interesante cómo la competencia cambia por completo la lectura del mercado. A veces el
+                        municipio “más fuerte” no es necesariamente el más viable.
+                    </p>
+                </div>
+
             </div>
         </section>
 
@@ -359,18 +423,20 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         const labels = ["Soacha", "Chía", "Zipaquirá"];
-        const empresas = [25, 15, 10];
-        const viabilidad = [92.5, 85.3, 78.2];
+        const concentracion = [80, 55, 40];
+        const viabilidad = [91.2, 86.4, 80.7];
 
-        new Chart(document.getElementById('chartEmpresas'), {
-            type: 'bar',
+        new Chart(document.getElementById("chartEmpresas"), {
+            type: "bar",
             data: {
                 labels: labels,
                 datasets: [{
-                    label: 'Número de empresas',
-                    data: empresas,
-                    borderWidth: 1,
-                    borderRadius: 8
+                    label: "Concentración comercial",
+                    data: concentracion,
+                    backgroundColor: ["#ffd166", "#95d5b2", "#a9d6ff"],
+                    borderColor: "#1f2937",
+                    borderWidth: 1.5,
+                    borderRadius: 10
                 }]
             },
             options: {
@@ -379,22 +445,24 @@
                     legend: { display: true }
                 },
                 scales: {
-                    y: {
-                        beginAtZero: true
-                    }
+                    y: { beginAtZero: true }
                 }
             }
         });
 
-        new Chart(document.getElementById('chartViabilidad'), {
-            type: 'line',
+        new Chart(document.getElementById("chartViabilidad"), {
+            type: "line",
             data: {
                 labels: labels,
                 datasets: [{
-                    label: 'Puntaje de viabilidad',
+                    label: "Puntaje de viabilidad",
                     data: viabilidad,
+                    borderColor: "#ff6b3d",
+                    backgroundColor: "#ff6b3d",
                     tension: 0.3,
-                    fill: false
+                    fill: false,
+                    pointRadius: 5,
+                    pointHoverRadius: 6
                 }]
             },
             options: {
